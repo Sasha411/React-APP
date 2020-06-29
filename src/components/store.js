@@ -101,7 +101,7 @@ export const Exercises = [
     },
     {
         id: 'dumbbell-row',
-        title: 'Dumbell Row',
+        title: 'Dumbbell Row',
         sets: 4,
         reps: 12,
         muscle:'Back',
