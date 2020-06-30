@@ -30,7 +30,7 @@ export class Content extends Component {
                     
                     >
                         
-                        {Muscles.map((group, index) => <Tab style={{fontSize: "0.8em", color: "#fafafa"}} onClick={() => this.onTabClick(index, group)} label={group}/>)}
+                        {Muscles.map((group, index) => <Tab style={{fontSize: "1em", color: "#fafafa"}} onClick={() => this.onTabClick(index, group)} label={group}/>)}
                         
                     </Tabs>
                     
@@ -43,7 +43,7 @@ export class Content extends Component {
                         {
                             
                             
-                                    return <Grid item xs={12} sm={4} ><Displaycard vidlink={tuscle.videolink} excercise={tuscle.title} sets={tuscle.sets} reps={tuscle.reps}/></Grid>
+                             return <Grid item xs={12} sm={4} ><Displaycard vidlink={tuscle.videolink} excercise={tuscle.title} sets={tuscle.sets} reps={tuscle.reps}/></Grid>
                                 
                             
                          

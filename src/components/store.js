@@ -307,7 +307,7 @@ export const Exercises = [
         id: 'dumbbell-hammer-curls',
         title: 'Dumbbell Hammer Curls',
         sets: 4,
-        reps: 10-12,
+        reps: 10,
         muscle:'Biceps',
         desc: 'Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.',
         beginner: '3 X 12',
@@ -319,7 +319,7 @@ export const Exercises = [
         id: 'ez-bar-curls',
         title: 'Ez Bar Curls',
         sets: 4,
-        reps: 10-12,
+        reps: 10,
         muscle:'Biceps',
         desc: 'Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.',
         beginner: '3 X 12',
@@ -331,7 +331,7 @@ export const Exercises = [
         id: 'inclined-dumbbell curls',
         title: 'Inclined Dumbbell Curls',
         sets: 4,
-        reps: 10-12,
+        reps: 10,
         muscle:'Biceps',
         desc: 'Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.',
         beginner: '3 X 12',
@@ -343,7 +343,7 @@ export const Exercises = [
         id: 'dumbbell-preacher-curls',
         title: 'Dumbbell Preacher Curls',
         sets: 4,
-        reps: 10-12,
+        reps: 10,
         muscle:'Biceps',
         desc: 'Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.',
         beginner: '3 X 12',
@@ -355,7 +355,7 @@ export const Exercises = [
         id: 'barbell-biceps-curls',
         title: 'Barbell Biceps Curls',
         sets: 4,
-        reps: 10-12,
+        reps: 10,
         muscle:'Biceps',
         desc: 'Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.',
         beginner: '3 X 12',
@@ -480,3 +480,4 @@ export const Exercises = [
 
 
 ]
+

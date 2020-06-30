@@ -11,13 +11,13 @@ export class Displaycard extends Component {
                                 <iframe src={this.props.vidlink} width="100%" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </CardMedia>
                                 <CardContent>
-                                <Typography color="primary" gutterBottom variant="h5" component="h2">
+                                <Typography color="primary" gutterBottom variant="h4" component="h2">
                                    {this.props.excercise}
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="h5" color="textSecondary" component="p">
                                     Sets: {this.props.sets}
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="h5" color="textSecondary" component="p">
                                     Reps: {this.props.reps}   
                                 </Typography>
                                 </CardContent>

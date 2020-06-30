@@ -6,9 +6,9 @@ function Header() {
         <div>
            <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h5" color="inherit">FITNESS CULT</Typography>
+                    <Typography variant="h4" color="inherit" gutterBottom>FITNESS CULT</Typography>
                 </Toolbar>
-            </AppBar> 
+            </AppBar > 
         </div>
     )
 }
