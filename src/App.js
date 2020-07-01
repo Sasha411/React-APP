@@ -6,7 +6,7 @@ import ExercisesMenu from './components/ExercisesMenu'
 
 function App() {
     const [title, setTitle] = React.useState("Welcome");
-    const [desc, setDesc] = React.useState("Select Exercises from left");
+    const [desc, setDesc] = React.useState("To start select any Exercises from left ");
     const [beg, setBeg] = React.useState("");
     const [inter, setInter] = React.useState("");
     const [adv, setAdv] = React.useState("");

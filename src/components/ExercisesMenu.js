@@ -44,7 +44,7 @@ const ExercisesMenu = (props) => {
             <div style={{overflow: "none"}}>
                 <Grid style={{overflow: "none" }} container>
                 <Hidden smDown>
-                    <Grid  style={{overflowX: "none" ,overflowY: "scroll", maxHeight: '100vh', backgroundColor: '#b0bec5'}} item xs={4} sm={0}>                        
+                    <Grid  style={{overflowX: "none" ,overflowY: "scroll", maxHeight: '100vh', backgroundColor: '#b0bec5'}} item xs={4} sm={0} md={3}>                        
                         
                         <Paper style={{overflowX: "none"}} className={classes.Paper}>
                             {Muscles.map((obj) => 
@@ -76,7 +76,7 @@ const ExercisesMenu = (props) => {
                        
                     </Grid>
                     </Hidden>
-                    <Grid style={{overflowX: "none" ,backgroundColor: '#b0bec5'}} item sm={12} md={8}>
+                    <Grid style={{overflowX: "none" ,backgroundColor: '#b0bec5'}} item xs={12} sm={12} md={9}>
                     <Mkdrightpanel title={props.title} desc={props.desc} beg={props.beg} inter={props.inter} adv={props.adv}/>
                     </Grid>
                     
